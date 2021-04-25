@@ -83,14 +83,14 @@
     font-size: 12px;
 }
 
-.user-menu li:after {
+.user-menu li::before {
     content: " | ";
     /* display: inline-block; */
     /* font-size: 100%; */
-    margin: 0px 4px 0px 2px;
+    margin: 0px 2px 0px 4px;
     }
 
-.user-menu li:last-child:after {
+.user-menu li:first-child:before {
     content: "";
     margin : 0;
 }
@@ -363,7 +363,7 @@
 
 .footer-left li:first-child:before {
     padding: 0px;
-    content: none;
+    content: "";
   }
 
 .footer-right {
