@@ -172,11 +172,7 @@
     padding-bottom: 11px;
 }
 
-.left-nav-top-content-text  :last-child{
-    padding: 0;
 
-
-}
 
 .left-nav-top-content a  {
     text-decoration: none;
@@ -365,7 +361,7 @@
     padding: 0px 5px;
   }
 
-.footer-left li:first-child::before {
+.footer-left li:first-child:before {
     padding: 0px;
     content: none;
   }
