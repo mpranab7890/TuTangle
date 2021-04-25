@@ -83,7 +83,7 @@
     font-size: 12px;
 }
 
-.user-menu li::before {
+.user-menu li:before {
     content: " | ";
     /* display: inline-block; */
     /* font-size: 100%; */
